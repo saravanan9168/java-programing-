@@ -22,3 +22,10 @@ class Main {
        
     }
 }
+
+
+SYNTAX
+    while(condition){
+            //block of execution 
+}
+    
