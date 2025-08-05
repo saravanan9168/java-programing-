@@ -23,3 +23,9 @@ class Main {
        
     }
 }
+
+
+SYNTAX
+    do{
+          //loop block 
+}while(bolean_expression );
