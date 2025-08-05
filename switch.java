@@ -41,3 +41,16 @@ class Main {
        
     }
 }
+
+Syntax 
+    switch(varible){
+    case value0:
+        //block to execute 
+        break;
+    case value01:
+        //block to execute 
+        break;
+    default:
+        //block to execute 
+    
+        
