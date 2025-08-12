@@ -29,6 +29,9 @@ class Main {
         
         String str6=name.concat(name1);
         System.out.println(str6);
+
+          System.out.println(name.contains(name1));
+        System.out.println(name.contentEquals(name1));
         
 
         
