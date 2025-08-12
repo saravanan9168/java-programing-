@@ -58,6 +58,15 @@ class Main {
         String str ="saravanan";
         str.getChars(0,9,data,4);
          System.out.println(data);
+        
+        String str1="hello my name saravanan and i'm doing artificial intelligence in mount zion college of engineering and technology";
+        byte[] arr=str.getBytes();
+        System.out.println(arr[1]);
+        System.out.println(arr.hashCode());
+        System.out.println(str.toUpperCase());
+        System.out.println(str1.indexOf("doing"));
+        System.out.println(str.isEmpty());
+        
     }
 }
         
