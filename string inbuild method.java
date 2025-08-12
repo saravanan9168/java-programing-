@@ -24,6 +24,13 @@ class Main {
         int str4=name.compareTo(name1);
         System.out.println(str4);
 
+        int str5=name.compareToIgnoreCase(name1);
+        System.out.println(str5);
+        
+        String str6=name.concat(name1);
+        System.out.println(str6);
+        
+
         
         
     }
