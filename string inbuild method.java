@@ -32,6 +32,9 @@ class Main {
 
           System.out.println(name.contains(name1));
         System.out.println(name.contentEquals(name1));
+
+         System.out.println(str.copyValueOf(data,0,5));
+        System.out.println(str.endsWith("O"));
         
 
         
