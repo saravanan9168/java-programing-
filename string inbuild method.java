@@ -6,6 +6,8 @@ class Main {
         Scanner x = new Scanner(System.in);
         System.out.println("enter the name ");
         String name =x.nextLine();
+        System.out.println("enter the name 2 ");
+        String name1 =x.nextLine();
         
         char str=name.charAt(0);
         System.out.println(str);
@@ -15,6 +17,13 @@ class Main {
         
         int str2=name.codePointBefore(1);
         System.out.println(str2);
+
+        int str3=name.codePointCount(0,5);
+        System.out.println(str3);
+        
+        int str4=name.compareTo(name1);
+        System.out.println(str4);
+
         
         
     }
