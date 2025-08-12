@@ -47,6 +47,19 @@ class Main {
     
         System.out.println(str.equalsIgnoreCase("hello"));
         System.out.println(String.format(hi,name,age));
+
+        // Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        char[] data={'3','0','2','5','4','5','6','7','8','3','0','2','5'};
+        
+        String str ="saravanan";
+        str.getChars(0,9,data,4);
+         System.out.println(data);
+    }
+}
         
 
         
