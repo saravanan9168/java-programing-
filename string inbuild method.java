@@ -35,6 +35,18 @@ class Main {
 
          System.out.println(str.copyValueOf(data,0,5));
         System.out.println(str.endsWith("O"));
+
+
+         Scanner x = new Scanner(System.in);
+        System.out.println("enter the name ");
+        String name =x.nextLine();
+        System.out.println("enter the age ");
+        int age =x.nextInt();
+        String str=" hello";
+        String hi="hi %s myage %d";
+    
+        System.out.println(str.equalsIgnoreCase("hello"));
+        System.out.println(String.format(hi,name,age));
         
 
         
