@@ -66,6 +66,12 @@ class Main {
         System.out.println(str.toUpperCase());
         System.out.println(str1.indexOf("doing"));
         System.out.println(str.isEmpty());
+
+         String str=String.join(" ","Saravanan","Ravi");
+        System.out.println(str);
+        
+        String x="hello world";
+        System.out.println(x.lastIndexOf("world"));
         
     }
 }
