@@ -57,3 +57,30 @@ class Main {
        
     }
 }
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+          Scanner x=new Scanner(System.in);
+          System.out.println("enter the name ");
+          String name=x.nextLine();
+          char[] y=name.toCharArray();
+          for(char s:y){
+              System.out.println(s);
+          }
+          
+          System.out.println(name.toUpperCase());
+          System.out.println(name.toLowerCase());
+          
+          System.out.println(name.toString());
+          System.out.println(name);
+          System.out.println(name.trim());
+          
+          
+        
+       
+    }
+}
