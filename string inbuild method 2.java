@@ -18,3 +18,25 @@ class Main {
        
     }
 }
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("enter the words");
+       String x=sc.nextLine();
+       
+       String y="[,\\ .\\s]";
+       System.out.println(x.replace('e','a'));
+       System.out.println(x.replaceAll("hi","hello"));
+       
+       String[] z=x.split(y);
+       for(String s:z){
+           System.out.println(s);
+       }
+       
+    }
+}
