@@ -43,3 +43,17 @@ class Main {
        
     }
 }
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+          String name="abdulirfhan";
+          CharSequence b=name.subSequence(0,5);
+         CharSequence a=name.subSequence(5,11);
+         System.out.println(b+" "+a);
+        
+       
+    }
+}
