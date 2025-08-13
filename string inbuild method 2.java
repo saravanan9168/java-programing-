@@ -37,6 +37,9 @@ class Main {
        for(String s:z){
            System.out.println(s);
        }
+        System.out.println(x.startsWith("hi"));
+       System.out.println(x.startsWith("abdul"));
+       
        
     }
 }
